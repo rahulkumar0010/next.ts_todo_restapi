@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Todo Next.ts Rest API
+
+!https://img.shields.io/github/last-commit/rahulkumar0010/next.ts_todo_restapi
+!https://img.shields.io/github/stars/rahulkumar0010/next.ts_todo_restapi
+!https://img.shields.io/github/forks/rahulkumar0010/next.ts_todo_restapi
+
+## Project Description
+
+*Todo Next.ts* is a web application for managing your to-do lists. It is built using Next.js, Tailwind CSS, Formik, Yup, Context API, and MongoDB. This project provides a clean and user-friendly interface to create, update, and delete tasks in your to-do list.
+
+## Features
+
+- Create new tasks with descriptions and due dates.
+- Edit and update task details.
+- Mark tasks as complete or incomplete.
+- Delete tasks you no longer need.
+- View a list of all your tasks.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-rendered React applications.
+- **Tailwind CSS**: A utility-first CSS framework for styling the application.
+- **Formik**: A library for building forms in React.
+- **Yup**: A JavaScript schema validation library.
+- **Context API**: For state management and providing global data to components.
+- **MongoDB**: A NoSQL database used to store task data.
 
 ## Getting Started
 
-First, run the development server:
+To get a copy of this project up and running on your local machine, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone this repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   shell
+   git clone https://github.com/rahulkumar0010/next.ts_todo_restapi.git
+   
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Change directory to the project folder:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   shell
+   cd next.ts_todo_restapi
+   
 
-## Learn More
+3. Install the project dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+   shell
+   npm install
+   
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Create a `.env.local` file in the project root directory and set up your MongoDB connection string as follows:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   shell
+   MONGO_URI=your_mongodb_connection_string
+   
 
-## Deploy on Vercel
+5. Start the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   shell
+   npm run dev
+   
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. Open your web browser and visit `http://localhost:3000` to access the application.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your forked repository.
+5. Create a pull request to the main repository's `main` branch.
+
+
+
+## Acknowledgments
+
+- Thanks to the creators of Next.js, Tailwind CSS, Formik, Yup, Context API, and MongoDB for their awesome tools and libraries.
+- Special thanks to the open-source community for their contributions and support.
+
+Feel free to customize this README file further to provide more details about your project or any specific installation and usage instructions. Good luck with your project!
